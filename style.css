@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Inter:wght@200;300;400;500&family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Amiko;
+}
+
+header {
+    height: 5.625rem;
+    display: flex;
+    align-items: center;
+    gap: 18.5rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 6.644rem;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1.82rem;
+}
+
+header ul li {
+    color: #9B9B9B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+header > img {
+    margin-left: 9.375rem;
+    width: 13.318rem;
+    height: 2.509rem;
+}
+
+.cadastro-section {
+    display: flex;
+    gap: 2.008rem;
+}
+
+#contato, #login {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.11);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    background-color:#FF7900;
+    border-radius: 72px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 124.517px;
+    height: 44px;
+}
+
