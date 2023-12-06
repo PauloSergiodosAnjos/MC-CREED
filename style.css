@@ -32,12 +32,14 @@ header ul li {
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
+    cursor: pointer;
 }
 
 header > img {
     margin-left: 9.375rem;
     width: 13.318rem;
     height: 2.509rem;
+    cursor: pointer;
 }
 
 .cadastro-section {
@@ -60,3 +62,58 @@ header > img {
     height: 44px;
 }
 
+.poster-container {
+    overflow-x: auto; /* Ativa a barra de rolagem horizontal apenas se necessário */
+    width: 100vw; /* Garante que ocupe a largura total do viewport */
+    display: flex;
+    justify-content: center; /* Centraliza a .poster horizontalmente */
+    
+}
+
+.poster {
+    background-image: url(./assets/Poster\ 1\ 1.png);
+    min-width: 100vw; /* Largura mínima da imagem (maior que a tela) */
+    height: 496px;
+    display: flex;
+    align-items: center;
+}
+
+#simula-facil {
+    background-color: white;
+    width: 430px;
+    height: 266px;
+    border-radius: 23px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 380px;
+}
+
+#simula-facil h2 {
+    color: #303030;
+    font-size: 32px;
+}
+
+#simula-facil h4 {
+    color: #484848;
+    font-size: 20px;
+}
+
+#button-simular {
+    width: 209px;
+    height: 50px;
+    background-color:  #FF7200;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+input[type="range"] {
+    width: 328px;
+}
